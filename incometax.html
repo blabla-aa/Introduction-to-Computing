@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="incometax.css">
+    <title>Income Tax Calculator</title>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Income Tax Calculator</h1>
+    <form id="taxForm">
+        <label for="income"><b element class="indicator">Enter your taxable income:</b></label>
+        <input type="number" id="income" name="income" required>
+        <input type="submit" value="Calculate Tax">
+    </form>
+
+    <h2 id="result"></h2>
+</div>
+
+<script>
+    document.getElementById('taxForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var income = parseFloat(document.getElementById('income').value);
+        var tax = 0;
+
+        if (income <= 250000) {
+            tax = 0;
+        } else if (income <= 400000) {
+            tax = 0.20 * (income - 250000);
+        } else if (income <= 800000) {
+            tax = 30000 + 0.25 * (income - 400000);
+        } else if (income <= 2000000) {
+            tax = 130000 + 0.30 * (income - 800000);
+        } else if (income <= 8000000) {
+            tax = 490000 + 0.32 * (income - 2000000);
+        } else {
+            tax = 2410000 + 0.35 * (income - 8000000);
+        }
+
+        document.getElementById('result').innerText = "Income Tax: " + tax.toFixed(2);
+    });
+</script>
+
+<br><a element class="backo" href="about.html">Back to Homepage</a></br>
+
+
+</body>
+</html>
