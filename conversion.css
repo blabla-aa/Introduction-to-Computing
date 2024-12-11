@@ -1,0 +1,79 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #020000;
+    margin: 0px;
+}
+
+h1{
+    background-color: hsl(0, 88%, 35%);
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 15%;
+    color: #fafafa;
+ }
+
+label{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(48, 170, 11);
+    padding: 15px;
+    border-radius: 3px;
+    font-size: large;
+    color: rgb(8, 8, 8);
+ }
+
+input, select, button{
+     margin: 10px;
+     font-size: 16px;
+     border: 2px solid #cc0000;
+     border-radius: 5px;
+}
+
+input, select{
+    background-color: hsl(0, 88%, 35%); 
+    color: #ffffff;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+button{
+    background-color: hsl(0, 88%, 35%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #db0e0e;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;  
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 4px solid black;
+}
+
+.header1{
+    padding: 30px;
+    border: 3px solid black;
+}
+
+.back1{
+    background-color: hsl(0, 88%, 35%); 
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}
+
+.back1:hover{
+    background-color: hsl(0, 92%, 47%); 
+}
