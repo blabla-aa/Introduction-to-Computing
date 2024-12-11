@@ -1,0 +1,147 @@
+header {
+    background-color: hsl(0, 88%, 35%); 
+    color: #fafafa;
+    padding: 20px 0;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #0a0a0a;
+    text-align: left;
+}
+
+header h1 {
+    margin: 14px;
+    font-size: 2rem;
+}
+
+nav li{
+    color: #000000;
+    text-decoration: none;
+    margin: 0 50px;
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+nav ul{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+}
+
+nav{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+   
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(249, 248, 253);
+    background-color: #be2b2b;
+}
+
+nav a{
+    color: black;
+}
+
+.About{
+    margin-top: 3%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+.divv1{
+    width: 250px;
+    height: 200px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 88%, 35%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px; 
+    width: 225px; 
+    height: auto; 
+}
+   
+.buttonp{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}    
+
+.buttonn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 88%, 35%); 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.head2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: hsl(0, 88%, 35%); 
+    color: white;
+    margin: 0;
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+}
+ 
+.p2{
+    font-size: larger;
+    text-align: center;
+}
+
+.buttonn{
+    margin-left: 10%;
+    margin-top: 30%;
+    height: auto;
+    width: 50px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.buttonn:hover{
+    background-color: hsl(0, 83%, 48%); 
+}
+
+nav, ul, li{
+    background-color: #aa3636;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    background-color: #dd7171;
+}
+
+button{
+    padding: 10px;
+}
